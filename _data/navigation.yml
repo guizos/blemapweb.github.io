@@ -1,12 +1,9 @@
-- name: Pricing
-  link: /pricing/
+- name: BLEMAP
+  link: /
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
-- name: About
+
+- name: About Us
   link: /about/
   new_window: false
   highlight: false
@@ -14,11 +11,3 @@
   link: /contact/
   new_window: false
   highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
-  highlight: true

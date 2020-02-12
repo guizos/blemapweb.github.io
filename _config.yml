@@ -1,29 +1,28 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+title: BLEmap
+url: "https://www.blemap.com"
+baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
-  name:
-  email:
+description: Solution for Blueotooth Low Energy Security
+author: 
+  name: Jorge Blasco Alis
+  email: info@blemap.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: BLEMAP
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: GMT
 
 collections:
   staff_members:
@@ -90,12 +89,7 @@ exclude:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
   - LinkedIn
-  - Pinterest
-  - Tumblr
   - Twitter
   - YouTube
   - RSS

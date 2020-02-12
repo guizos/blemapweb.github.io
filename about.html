@@ -1,14 +1,24 @@
 ---
-title: Our team
-description: We've built an amazing team of developers, marketers, designers and sales people.
+title: About us
+description: 
 ---
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
-</ul>
+<p>BLEmap identifies the functionality of Bluetooth Low Energy devices and some of their security issues. BLEmap has been developed with security teams and developers in mind allowing them to either produce human-readable security analsysis reports or computer-readable files that can help automate other parts of the security analisys.</p>
+
+<p>BLEmap can help security teams with no or little experience in Bluetooth to assess the security of Bluetooth-enabled devices. BLEmap executes in minutes, allowing them to expand their services to new kinds of threats and devices with a small cost.</p>
+
+
+<p>BLEmap has been developed by a team at Royal Holloway with the support from <a href="https://epsrc.ukri.org">EPSRC</a> and <a href="https://ktn-uk.co.uk/programmes/cyber-security-academic-startups-accelerator-programme">CyberASAP</a>. The funding from EPSRC s part of the <a href="https://www.royalholloway.ac.uk/research-and-teaching/departments-and-schools/information-security/studying-here/centre-for-doctoral-training-in-cyber-security-for-the-everyday/">Centre for Doctoral Training in Cyber Security at Royal Holloway, University of London</a> (EP/P009301/1).
+</p>
+<div class="container">
+	<div class="row">
+		<div class="column" style="width=33%">
+			<img src="{{ site.baseurl }}/images/epsrc.jpeg" alt="EPSRC" class="editable" />
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/rhul.jpg" alt="RHUL" class="editable" />
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/cyberasap.png" alt="CyberASAP" class="editable" />
+		</div>
+	</div>
+</div>
